@@ -24,13 +24,15 @@ document.querySelector('.add').addEventListener('click', ()=>{
         if((document.querySelector('.save-active')) != undefined){
             if(confirm('Hay cambios sin guardar ¿Desea continuar?')){
                 addObjects({nombre});
+                document.querySelector('#name').value= "";
                 leerObject();
             }else{
                 
             }
         }else{
             addObjects({nombre});
-            leerObject();   
+            document.querySelector('#name').value= "";
+            leerObject();
         }
     }
 });
