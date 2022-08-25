@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+}
+
+body, h2, div, input, button{
+    margin: 0;
+    padding: 0;
+}
+
+#name{
+    padding: 4px 8px;
+}
+
+.add-nombres, .add  {
+    margin-top: 40px;
+}
+
+.nombre{
+    display: grid;
+    grid-template-columns: minmax(100px, 300px) 1fr;
+    border-top: 1px solid #48e;
+    max-width: 600px;
+    margin:  auto;
+    margin-top: 20px;
+}
+.options{
+    display: flex;
+    justify-self: end;
+}
+.nombres{
+    margin: 40px;
+}
+.options button{
+    background: transparent;
+    border: none;
+    margin: 4px 10px;
+}
+.delete:hover{
+    color: #999;
+}
+.save{
+    color: #37d;
+}
+.save:hover{
+    color: #6af ;
+}
+.save-active{
+    color: #3f3;
+}
+.save-active:hover{
+    color: #7f7;
+}
+.nombre h2{
+    padding: 6px;
+    color: #48e ;
+    outline: none;
+
+}
