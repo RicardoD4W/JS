@@ -18,7 +18,8 @@ IDBRequest1.addEventListener('error', ()=>{
         console.log('error');
 }   );
 
-document.querySelector('.add').addEventListener('click', ()=>{
+let contentFunction = () =>{
+
     let nombre = document.querySelector('#name').value;
     if(nombre.length > 0){
         if((document.querySelector('.save-active')) != undefined){
@@ -27,7 +28,6 @@ document.querySelector('.add').addEventListener('click', ()=>{
                 document.querySelector('#name').value= "";
                 leerObject();
             }else{
-                
             }
         }else{
             addObjects({nombre});
@@ -35,7 +35,14 @@ document.querySelector('.add').addEventListener('click', ()=>{
             leerObject();
         }
     }
+}
+
+document.querySelector('#name').addEventListener('click', ()=>{
+    contentFunction();
 });
+
+
+
 //addObjects({nombre});
 //leerObject();
 //=============================         CRUD         =====================================

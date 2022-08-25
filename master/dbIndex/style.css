@@ -9,6 +9,9 @@ body, h2, div, input, button{
 
 #name{
     padding: 4px 8px;
+    border: none;
+    border-bottom: 1px solid #37d;
+    outline: none;
 }
 
 .add-nombres, .add  {
@@ -54,5 +57,13 @@ body, h2, div, input, button{
     padding: 6px;
     color: #48e ;
     outline: none;
+}
 
+.add{
+    border: none;
+    margin-left: 20px;
+    background: rgb(100, 131, 243);
+    padding: 10px;
+    color: #fff;
+    border-radius: 20px;
 }
