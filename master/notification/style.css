@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+.cajas{
+    display: flex;
+
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    border: 3px dashed #48e;
+    text-align: center;
+}
+.cabecera{
+    margin: 0;
+    padding: 0;
+    border: 1px solid black;
+    background: #6af;
+}
+
+.cuerpo{
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    background: #acf;
+    height: 124px;
+    width: auto;
+}
