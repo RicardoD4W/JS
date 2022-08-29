@@ -10,3 +10,8 @@ console.log('mimeTypes: ',navigator.mimeTypes);                         console.
 console.log('onLine: ',navigator.onLine);                               console.log(" ");
 console.log('userAgent: ',navigator.userAgent);                         console.log(" ");
 console.log('cookieEnabled: ',navigator.cookieEnabled);                 console.log(" ");
+console.log('permissions: ',navigator.permissions);                     console.log(" ");
+console.log('platform: ',navigator.platform);                           console.log(" ");
+console.log('plugins: ',navigator.plugins);                             console.log(" ");
+console.log('product: ',navigator.product);                             console.log(" ");
+console.log('serviceWorker: ',navigator.serviceWorker);                 console.log(" ");
