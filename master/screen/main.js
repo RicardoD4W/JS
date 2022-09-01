@@ -12,3 +12,4 @@ let resolucion          = screen.pixelDepth;
 console.log("🚀 ~ file: main.js ~ line 12 ~ resolucion      ", resolucion      );
 let profundidad         = screen.colorDepth;
 console.log("🚀 ~ file: main.js ~ line 13 ~ profundidad     ", profundidad     );
+ 
