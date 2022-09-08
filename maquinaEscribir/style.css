@@ -1,0 +1,43 @@
+body{
+    background-color: #000;
+}
+
+
+
+span{
+    color: #fff;
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 10px solid;
+    width: 12ch;
+    font-size: 145px;
+
+    animation: typing 2s steps(12), blink .5s infinite step-end alternate;
+
+    overflow: hidden;
+}
+
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+}
+
+.conteiner{
+    display: flex;
+    justify-content: center;
+}
+
+.obj-conteiner{
+    position: absolute;
+    margin-top: 17%;
+
+}
